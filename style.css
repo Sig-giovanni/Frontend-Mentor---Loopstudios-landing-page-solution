@@ -1,0 +1,294 @@
+.heading {
+    height: 85vh;
+    background: url(./images/desktop/image-hero.jpg);
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.mobile-nav {
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background-color: hsl(0, 0%, 0%);
+    padding: 40px 27px 0px 27px;
+}
+
+.mobile-nav-group {
+    padding: 0;
+    margin-top: 50%;
+    list-style: none;
+}
+
+.mobile-nav-item {
+    font-size: 21px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    margin-bottom: 29px;
+}
+
+.nav-bar {
+    padding: 40px 90px;
+}
+
+.logo {
+    font-size: 30px;
+    font-family: 'Alata', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.nav-group {
+    align-self: center;
+    margin-bottom: 0;
+    padding-left: 14px !important;
+}
+
+.nav-item {
+    font-family: 'Alata', sans-serif;
+    margin-right: 38px;
+    color: hsl(0, 0%, 100%);
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.nav-item:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 0%; /* Change this to whatever width you want. */
+    padding-top: 9px;/* This creates some space between the element and the border. */
+    border-bottom: 3px solid rgb(255, 255, 255); /* This creates the border. Replace black with whatever color you want. */
+}
+
+.nav-item:hover:after {
+    width: 50%;
+}
+
+.nav-toggle {
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+  }
+
+.mr-0 {
+    margin-right: 0;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.spad {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.main-text {
+    font-size: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    line-height: normal;
+    border: 4px solid hsl(0, 0%, 100%);
+    padding: 40px 40px; 
+}
+
+.interactive {
+    background-color: #ffffff;
+    position: absolute;
+    top: 191px;
+    left: -187px;
+    margin-right: 80px;
+    padding: 69px 0px 0px 40px;
+}
+
+.heading-text {
+    font-size: 46px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: hsl(0, 0%, 0%);
+    text-transform: uppercase;
+    line-height: normal;
+    margin: auto; 
+    padding-top: 9px;
+}
+
+.para {
+    font-size: 15px;
+    font-family: 'Alata', sans-serif;
+    color: hsl(0, 0%, 55%);
+    margin-top: 40px; 
+}
+
+.button {
+    font-size: 16px;
+    padding: 9px 48px;
+    border: 2px solid hsl(0, 0%, 55%);
+    color: hsl(0, 0%, 0%);
+    font-family: 'Alata', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: end;
+}
+.image-group:hover .image {
+    filter: contrast(0.4);
+}
+
+.image-group:hover .image-text {
+    color: hsl(0, 0%, 0%);
+}
+
+.image {
+    filter: brightness(70%);
+}
+
+
+.image-text {
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    line-height: normal;
+    margin: auto; 
+    /*padding-top: 9px;*/
+    position: absolute;
+    bottom: 33px;
+    left: 57px;
+    width: 55%;
+    z-index: 4;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    overflow: hidden;
+}
+
+.footer{
+    padding-bottom: 50px;
+    background-color: black;
+    padding: 50px 50px;
+}
+
+.footer-icons {
+    display: flex;
+    padding-top: 15px
+}
+
+.icons {
+    margin-right: 15px;
+}
+
+.footer-text {
+    font-size: 15px;
+    font-family: 'Alata', sans-serif;
+    color: hsl(0, 0%, 55%); 
+}
+
+
+/*PHONE SCREEENS*/
+@media all and (max-width: 480px) { 
+    .main-text {
+        font-size: 35px;
+        padding: 28px 33px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .interactive {
+        position: unset;
+        padding: 69px 0px 10px 10px;
+        margin-right: 0;
+    }
+
+    .heading-text {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .para {
+        text-align: center;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .nav-bar {
+        padding: 41px 23px;
+    }
+
+    .button {
+        display: none;
+    }
+
+  }
+
+/*TABLETS SCREENS*/  
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .main-text {
+        font-size: 30px;
+        padding: 40px 40px; 
+    }
+
+    .interactive {
+        position: unset;
+        padding: 69px 0px 10px 10px;
+        margin-right: 0;
+    }
+
+    .heading-text {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .para {
+        text-align: center;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .nav-bar {
+        padding: 41px 23px;
+    }
+
+    .button {
+        display: none;
+    }
+
+  }
+
+/*LAPTOP SCREENS*/  
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    .nav-toggle {
+        display: none;
+      } 
+  } 
+
+/*DESKTOPS SCREENS*/  
+@media all and (min-width: 1024px){
+    .nav-toggle {
+        display: none;
+      }
+  } 
