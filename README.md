@@ -54,6 +54,6 @@ Users should be able to:
 ## Author
 
 - Website - [Kingsley Abraham](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Sig-giovanni)
+- Frontend Mentor - [Sig-giovanni](https://www.frontendmentor.io/profile/Sig-giovanni)
 
 
