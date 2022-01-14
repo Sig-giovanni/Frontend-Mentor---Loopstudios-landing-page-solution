@@ -14,7 +14,6 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 - [Author](#author)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -32,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/Sig-giovanni/Frontend-Mentor---Loopstudios-landing-page-solution)
+- Solution URL: [Solution URL](https://sig-giovanni.github.io/Frontend-Mentor---Loopstudios-landing-page-solution/)
 - Live Site URL: [Live site URL](https://your-live-site-url.com)
 
 ## My process
@@ -51,7 +50,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Kingsley Abraham](https://www.your-site.com)
+- Website - [Kingsley Abraham](https://www.instagram.com/sig_giovanni)
 - Frontend Mentor - [Sig-giovanni](https://www.frontendmentor.io/profile/Sig-giovanni)
 
 
